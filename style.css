@@ -24,8 +24,28 @@ nav a {
 
 section {
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1100px;
   margin: auto;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-container img {
+  max-width: 200px;
+  height: auto;
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.about-container p {
+  max-width: 900px;
+  line-height: 1.6;
+  Margin-bottom: 1.5 em;
+  text-indent: 2em;
+  text-align: justify;
 }
 
 footer {
